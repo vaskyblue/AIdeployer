@@ -1,0 +1,9 @@
+build:
+  python_version: "3.9"
+  python_packages:
+    - "torch==1.9.0"
+    - "torchvision==0.10.0"
+  system_packages:
+    - "libgl1-mesa-glx"
+predict: "predict.py:Predictor"
+image: "miusuario/mimodelo:v1"
